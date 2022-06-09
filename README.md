@@ -21,3 +21,14 @@ yarn start:mfe1
 
 yarn start:shell
 ```
+
+
+```
+ng g application mfe2 --prefix=mfe2 --route=false --style=css
+
+// repo branch demo3
+```
+
+```
+ng add @angular-architects/module-federation --project mfe2 --port 3001
+```
